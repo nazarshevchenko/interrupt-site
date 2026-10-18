@@ -92,7 +92,7 @@ export default function App() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col px-6 sm:px-10">
       <header className="flex items-center justify-between py-6">
-        <a href="/" className="flex items-center gap-2.5 text-[15px] font-semibold tracking-tight">
+        <a href="./" className="flex items-center gap-2.5 text-[15px] font-semibold tracking-tight">
           <Mark />
           Interrupt
         </a>
