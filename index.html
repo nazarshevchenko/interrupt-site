@@ -1,22 +1,15 @@
 <!doctype html>
-<html lang="uk">
+<html lang="uk" class="light" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
     <title>Interrupt</title>
     <meta name="description" content="Interrupt — невеликі застосунки для виробництва та складу. Small software tools for manufacturing and warehouses." />
     <meta property="og:title" content="Interrupt" />
     <meta property="og:description" content="Невеликі застосунки для виробництва та складу." />
     <meta property="og:url" content="https://interrupt.it.com/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <script>
-      // apply theme before paint to avoid flash
-      (function () {
-        var d = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.classList.add(d ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-theme', d ? 'dark' : 'light');
-      })();
-    </script>
   </head>
   <body>
     <div id="root"></div>
